@@ -1,52 +1,12 @@
-update=Wed 12 Feb 2014 08:10:05 PM CET
+update=Thu 27 Feb 2014 01:14:03 PM CET
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=VirtualSense_uC.net
-UseCmpFile=1
-PadDrill=2.54
-PadSizeH=3.556
-PadSizeV=3.556
-PcbTextSizeV=2.032
-PcbTextSizeH=1.524
-PcbTextThickness=0.3048
-ModuleTextSizeV=1.524
-ModuleTextSizeH=1.524
-ModuleTextSizeThickness=0.3048
-SolderMaskClearance=0.2032
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.381
-BoardOutlineThickness=0.381
-ModuleOutlineThickness=0.381
-[pcbnew/libraries]
-LibDir=../lbr
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=valves
-LibName9=led
-LibName10=dip_sockets
-LibName11=VirtualSense
-LibName12=VirtualSenseB
-LibName13=logo/OPENHARDWARE
-LibName14=logo/oshw
-LibName15=YT_antennes/antennes
 [eeschema]
 version=1
 LibDir=../lbr
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -85,3 +45,45 @@ LibName30=valves
 LibName31=VirtualSense
 LibName32=VirtualSenseB
 LibName33=VirtualSenseCoffeeNugget
+[pcbnew]
+version=1
+LastNetListRead=VirtualSense_uC.net
+UseCmpFile=1
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    2.000000"
+PadSizeV="    3.000000"
+PcbTextSizeV="    2.032000"
+PcbTextSizeH="    1.524000"
+PcbTextThickness="    0.304800"
+ModuleTextSizeV="    1.524000"
+ModuleTextSizeH="    1.524000"
+ModuleTextSizeThickness="    0.304800"
+SolderMaskClearance="    0.101600"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.381000"
+BoardOutlineThickness="    0.381000"
+ModuleOutlineThickness="    0.200000"
+[pcbnew/libraries]
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=VirtualSense
+LibName12=VirtualSenseB
+LibName13=logo/OPENHARDWARE
+LibName14=logo/oshw
+LibName15=YT_antennes/antennes
+LibName16=VirtualSenseCoffeeNugget
+LibDir=../lbr
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

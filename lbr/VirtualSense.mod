@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mon 13 Jan 2014 05:19:50 PM CET
+PCBNEW-LibModule-V1  Thu 27 Feb 2014 12:22:54 PM CET
 # encoding utf-8
 Units mm
 $INDEX
@@ -26,10 +26,15 @@ SIL-14f1d1.5
 SIL-14f1d1.5_double
 SIL-5f1d1.5
 SIL-7f1d1.5
+SOD-80
 TQFP_80big
 TQFP_80smd
 TSSOP_14
 USB_B_standard
+VS-DSP_SM0603
+VS-DSP_SM0603_POL
+VS-DSP_SM0805
+VS-DSP_SM0805_POL
 VS_1PIN
 VS_SM0402_LR
 VS_SM0402_LR_mono
@@ -41,22 +46,33 @@ VS_SSOP28big
 VS_pin_array_7x2
 VerticalButton
 W7001
+WaferAssy_4
+WaferAssy_5
+WaferAssy_9
 antenna2GHz4_ti
 antenna_ext_2GHz4
 back_info_262013
 balun_2450BM15A0002
 balun_antenna_2GHz4_ti
+bt_18650
 cc2500
 cc2520
 conn10x2smd1,27
 empty_pad
 empty_pad2
 fiducial15
+fix_hole_idrophone
 front_vsoh_logo
+idrophone_blade_layout
+idrophone_enc_layout
 k4000001
+micro_miniature_PB
+micro_sd_pp_MOLEX-503398
 quarzo_smd_32MHz
 quarzo_smd_32_768kHz
 soic_eeprom
+uMate-NLock_2
+uUSB-FCI_REC
 usb_micro_b
 usb_mini_b
 $EndINDEX
@@ -3742,6 +3758,35 @@ Ne 0 ""
 Po 7.62 0
 $EndPAD
 $EndMODULE SIL-7f1d1.5
+$MODULE SOD-80
+Po 0 0 0 15 530E3C3E 00000000 ~~
+Li SOD-80
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.5 1.524 1.524 0 0.3048 N V 21 N "SOD-80"
+T1 0 0 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+DS -0.65 -1.4 -0.65 1.4 0.2 21
+DS -0.85 1.4 -0.85 -1.4 0.2 21
+DS -2.9 1.4 -2.9 -1.4 0.2 21
+DS -2.9 -1.4 2.9 -1.4 0.2 21
+DS 2.9 -1.4 2.9 1.4 0.2 21
+DS 2.9 1.4 -2.9 1.4 0.2 21
+$PAD
+Sh "1" R 1.25 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.875 0
+$EndPAD
+$PAD
+Sh "2" R 1.25 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.875 0
+$EndPAD
+$EndMODULE SOD-80
 $MODULE TQFP_80big
 Po 0 0 0 15 4FD634B0 00000000 ~~
 Li TQFP_80big
@@ -5097,6 +5142,148 @@ Of 0 0 0.001
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE USB_B_standard
+$MODULE VS-DSP_SM0603
+Po 0 0 0 15 530E34FB 00000000 ~~
+Li VS-DSP_SM0603
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 -1.4 0.635 0.635 0 0.127 N V 21 N "SM0603"
+T1 0 0 0.635 0.635 900 0.127 N I 21 N "Val**"
+DS -1.3 -0.8 1.3 -0.8 0.2 21
+DS 1.3 -0.8 1.3 0.8 0.2 21
+DS 1.3 0.8 -1.3 0.8 0.2 21
+DS -1.3 0.8 -1.3 -0.8 0.2 21
+$PAD
+Sh "1" R 0.635 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.762 0
+$EndPAD
+$PAD
+Sh "2" R 0.635 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.762 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE VS-DSP_SM0603
+$MODULE VS-DSP_SM0603_POL
+Po 0 0 0 15 530E3960 00000000 ~~
+Li VS-DSP_SM0603_POL
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 -1.4 0.635 0.635 0 0.127 N V 21 N "SM0603"
+T1 0 0 0.635 0.635 900 0.127 N I 21 N "Val**"
+DS 1.5 0.8 1.3 0.8 0.2 21
+DS 1.3 -0.8 1.5 -0.8 0.2 21
+DS 1.5 -0.8 1.5 0.8 0.2 21
+DS -1.3 -0.8 1.3 -0.8 0.2 21
+DS 1.3 -0.8 1.3 0.8 0.2 21
+DS 1.3 0.8 -1.3 0.8 0.2 21
+DS -1.3 0.8 -1.3 -0.8 0.2 21
+$PAD
+Sh "1" R 0.635 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.762 0
+$EndPAD
+$PAD
+Sh "2" R 0.635 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.762 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE VS-DSP_SM0603_POL
+$MODULE VS-DSP_SM0805
+Po 0 0 0 15 530E34C1 00000000 ~~
+Li VS-DSP_SM0805
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 -1.5 0.635 0.635 0 0.127 N V 21 N "SM0805"
+T1 0 0 0.50038 0.50038 900 0.10922 N I 21 N "Val*"
+DS 1.625 -0.9 1.625 0.925 0.2 21
+DS 1.625 0.925 -1.625 0.925 0.2 21
+DS -1.625 0.925 -1.625 -0.925 0.2 21
+DS -1.625 -0.925 1.625 -0.925 0.2 21
+$PAD
+Sh "1" R 0.889 1.397 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.9525 0
+$EndPAD
+$PAD
+Sh "2" R 0.889 1.397 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.9525 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.1 0.1 0.1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE VS-DSP_SM0805
+$MODULE VS-DSP_SM0805_POL
+Po 0 0 0 15 530E3914 00000000 ~~
+Li VS-DSP_SM0805_POL
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 -1.5 0.635 0.635 0 0.127 N V 21 N "SM0805"
+T1 0 0 0.50038 0.50038 900 0.10922 N I 21 N "Val*"
+DS 1.625 -0.925 1.825 -0.925 0.2 21
+DS 1.825 -0.925 1.825 0.925 0.2 21
+DS 1.825 0.925 1.625 0.925 0.2 21
+DS 1.625 -0.9 1.625 0.925 0.2 21
+DS 1.625 0.925 -1.625 0.925 0.2 21
+DS -1.625 0.925 -1.625 -0.925 0.2 21
+DS -1.625 -0.925 1.625 -0.925 0.2 21
+$PAD
+Sh "1" R 0.889 1.397 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.9525 0
+$EndPAD
+$PAD
+Sh "2" R 0.889 1.397 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.9525 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.1 0.1 0.1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE VS-DSP_SM0805_POL
 $MODULE VS_1PIN
 Po 0 0 0 15 521F5E82 00000000 ~~
 Li VS_1PIN
@@ -5846,6 +6033,171 @@ Ne 0 ""
 Po -1.016 12.319
 $EndPAD
 $EndMODULE W7001
+$MODULE WaferAssy_4
+Po 0 0 0 15 530F1F71 00000000 ~~
+Li WaferAssy_4
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.5 1.524 1.524 0 0.3048 N I 21 N "WaferAssy_4"
+T1 3 4 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+DS -4.44 2.7 5.56 2.7 0.2 21
+DS -4.44 -1.65 5.56 -1.65 0.2 21
+DS -4.44 -1.65 -4.44 2.7 0.2 21
+DS 5.56 -1.65 5.56 2.7 0.2 21
+$PAD
+Sh "2" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$PAD
+Sh "3" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "1" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 0
+$EndPAD
+$PAD
+Sh "4" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 0
+$EndPAD
+$EndMODULE WaferAssy_4
+$MODULE WaferAssy_5
+Po 0 0 0 15 530F1F52 00000000 ~~
+Li WaferAssy_5
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.5 1.524 1.524 0 0.3048 N I 21 N "WaferAssy_5"
+T1 4 4 1.524 1.524 1800 0.3048 N V 21 N "VAL**"
+DS -5.44 2.7 6.56 2.7 0.2 21
+DS -5.44 -1.65 6.56 -1.65 0.2 21
+DS -5.44 -1.65 -5.44 2.7 0.2 21
+DS 6.56 -1.65 6.56 2.7 0.2 21
+$PAD
+Sh "2" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 0
+$EndPAD
+$PAD
+Sh "3" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4 0
+$EndPAD
+$PAD
+Sh "4" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2 0
+$EndPAD
+$PAD
+Sh "2" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4 0
+$EndPAD
+$EndMODULE WaferAssy_5
+$MODULE WaferAssy_9
+Po 0 0 0 15 530F2006 00000000 ~~
+Li WaferAssy_9
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.5 1.524 1.524 0 0.3048 N I 21 N "WaferAssy_9"
+T1 8 4 1.524 1.524 1800 0.3048 N V 21 N "VAL**"
+DS -9.44 2.7 10.56 2.7 0.2 21
+DS -9.44 -1.65 10.56 -1.65 0.2 21
+DS -9.44 -1.65 -9.44 2.7 0.2 21
+DS 10.56 -1.65 10.56 2.7 0.2 21
+$PAD
+Sh "2" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6 0
+$EndPAD
+$PAD
+Sh "3" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4 0
+$EndPAD
+$PAD
+Sh "1" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8 0
+$EndPAD
+$PAD
+Sh "4" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 0
+$EndPAD
+$PAD
+Sh "5" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2 0
+$EndPAD
+$PAD
+Sh "7" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4 0
+$EndPAD
+$PAD
+Sh "8" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6 0
+$EndPAD
+$PAD
+Sh "9" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8 0
+$EndPAD
+$EndMODULE WaferAssy_9
 $MODULE antenna2GHz4_ti
 Po 0 0 0 15 51FA5D4A 00000000 ~~
 Li antenna2GHz4_ti
@@ -6202,6 +6554,46 @@ Ne 0 ""
 Po 1.0414 10.16
 $EndPAD
 $EndMODULE balun_antenna_2GHz4_ti
+$MODULE bt_18650
+Po 0 0 0 15 530E121B 00000000 ~~
+Li bt_18650
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4.6 1.524 1.524 0 0.3048 N V 21 N "bt_18650"
+T1 0 4.8 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+DS 31 -9 32 -9 0.2 21
+DA 31 -8.5 30.5 -8.5 900 0.2 21
+DA 32 -8.5 32 -9 900 0.2 21
+DS 32.5 -3.5 32.5 -8.5 0.2 21
+DS 29 -9 29.5 -8.5 0.2 21
+DS 29.5 -8.5 30.5 -8.5 0.2 21
+DS 30.5 8.5 30 8.5 0.2 21
+DS 32 9 31 9 0.2 21
+DS 32.5 8.5 32.5 3.5 0.2 21
+DS 30 8.5 29.5 8.5 0.2 21
+DS 29.5 8.5 29 9 0.2 21
+DA 31 8.5 31 9 900 0.2 21
+DA 32 8.5 32.5 8.5 900 0.2 21
+DS -32.5 3.5 -32.5 9 0.2 21
+DS -32.5 9 29 9 0.2 21
+DS -32.5 -3.5 -32.5 -9 0.2 21
+DS -32.5 -9 29 -9 0.2 21
+$PAD
+Sh "1" O 1.5 6.5 0 0 0
+Dr 1 0 0 O 1 6
+At STD N 00E0FFFF
+Ne 0 ""
+Po 32.5 0
+$EndPAD
+$PAD
+Sh "2" O 1.5 6.5 0 0 0
+Dr 1 0 0 O 1 6
+At STD N 00E0FFFF
+Ne 0 ""
+Po -32.5 0
+$EndPAD
+$EndMODULE bt_18650
 $MODULE cc2500
 Po 0 0 0 15 505AD9C6 00000000 ~~
 Li cc2500
@@ -6771,6 +7163,23 @@ Po 0 0
 .LocalClearance 0.5
 $EndPAD
 $EndMODULE fiducial15
+$MODULE fix_hole_idrophone
+Po 0 0 0 15 530DD36B 00000000 ~~
+Li fix_hole_idrophone
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -5 1.524 1.524 0 0.3048 N I 21 N "fix_hole_idrophone"
+T1 0 5 1.524 1.524 0 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 6 6 0 0 0
+Dr 4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 0.5
+$EndPAD
+$EndMODULE fix_hole_idrophone
 $MODULE front_vsoh_logo
 Po 0 0 0 15 51C94816 00000000 ~~
 Li front_vsoh_logo
@@ -115840,6 +116249,102 @@ Dl 0.9906 6.5024
 Dl 0.9652 6.5024
 Dl 0.9652 6.477
 $EndMODULE front_vsoh_logo
+$MODULE idrophone_blade_layout
+Po 0 0 0 15 5306252F 00000000 ~~
+Li idrophone_blade_layout
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -28 1.524 1.524 0 0.3048 N V 21 N "idrophone_blade_layout"
+T1 0 28 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+DS -54 -1.5 -54 1.5 0.2 26
+DS -5 0 1 0 0.2 26
+DS -2 -3 -2 3 0.2 26
+DC -2 0 -2 -3 0.2 26
+DC -2 0 -2 -1.5 0.2 26
+DS -102 0 -82 0 0.2 26
+DS -92 -10 -92 10 0.2 26
+DC -92 0 -82 0 0.2 26
+DS 91 7.75 88 7.75 0.2 26
+DC 89.5 -7.75 91 -7.75 0.2 26
+DC 89.5 7.75 91 7.75 0.2 26
+DC 10 22 10 20.5 0.2 26
+DC -15 22 -15 20.5 0.2 26
+DS -15 23.5 -15 22 0.2 26
+DS -15 20.5 -15 22 0.2 26
+DS 10 23.5 10 22 0.2 26
+DS 10 20.5 10 22 0.2 26
+DC -15 -22 -15 -23.5 0.2 26
+DS -15 -20.5 -15 -22 0.2 26
+DS -15 -23.5 -15 -22 0.2 26
+DC 10 -22 10 -23.5 0.2 26
+DS 10 -23.5 10 -20.5 0.2 26
+DS 77 22 -82 22 0.2 26
+DS -82 -22 77 -22 0.2 26
+DS 50.5 0 47.5 0 0.2 26
+DS -52.5 0 -55.5 0 0.2 26
+DC 49 0 49 -1.5 0.2 26
+DC -54 0 -54 -1.5 0.2 26
+DS -54 0 -54 -1.5 0.2 26
+DS 49 1.5 49 -1.5 0.2 26
+DS -94 -12 -102 -12 0.2 26
+DS -94 12 -102 12 0.2 26
+DA -94 0 -94 -12 900 0.2 26
+DA -94 0 -82 0 900 0.2 26
+DS -82 26 -82 -26 0.2 26
+DS 88 -7.75 91 -7.75 0.2 26
+DS 89.5 26 89.5 -26 0.2 26
+DS 77 -26 77 26 0.2 26
+DS -102 26 102 26 0.2 26
+DS 102 -26 102 26 0.2 26
+DS -102 -26 -102 26 0.2 26
+DS -102 -26 102 -26 0.2 26
+$EndMODULE idrophone_blade_layout
+$MODULE idrophone_enc_layout
+Po 0 0 0 15 530DCEE8 00000000 ~~
+Li idrophone_enc_layout
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -28 1.524 1.524 0 0.3048 N V 21 N "idrophone_enc_layout"
+T1 0 28 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+DC -12.5 22 -16 22 0.2 26
+DC 12.5 22 16 22 0.2 26
+DC -12.5 -22 -16 -22 0.2 26
+DC 12.5 -22 16 -22 0.2 26
+DC -51.5 0 -55 0 0.2 26
+DC -51.5 0 -53.5 0 0.2 26
+DC 51.5 0 55 0 0.2 26
+DC 51.5 0 53.5 0 0.2 26
+DS 14 -22 11 -22 0.2 26
+DS -11 -22 -14 -22 0.2 26
+DS -11 22 -14 22 0.2 26
+DS 14 22 11 22 0.2 26
+DS 75 -23.5 75 23.5 0.2 26
+DS 75 23.5 -75 23.5 0.2 26
+DS -75 23.5 -75 -23.5 0.2 26
+DS -75 -23.5 75 -23.5 0.2 26
+DS -51.5 -1.5 -51.5 1.5 0.2 26
+DS -2.5 0 3.5 0 0.2 26
+DS 0.5 -3 0.5 3 0.2 26
+DC 0.5 0 0.5 -3 0.2 26
+DC 0.5 0 0.5 -1.5 0.2 26
+DC 12.5 22 12.5 20.5 0.2 26
+DC -12.5 22 -12.5 20.5 0.2 26
+DS -12.5 23.5 -12.5 22 0.2 26
+DS -12.5 20.5 -12.5 22 0.2 26
+DS 12.5 23.5 12.5 22 0.2 26
+DS 12.5 20.5 12.5 22 0.2 26
+DC -12.5 -22 -12.5 -23.5 0.2 26
+DS -12.5 -20.5 -12.5 -22 0.2 26
+DS -12.5 -23.5 -12.5 -22 0.2 26
+DC 12.5 -22 12.5 -23.5 0.2 26
+DS 12.5 -23.5 12.5 -20.5 0.2 26
+DS 53 0 50 0 0.2 26
+DS -50 0 -53 0 0.2 26
+DS -51.5 0 -51.5 -1.5 0.2 26
+DS 51.5 1.5 51.5 -1.5 0.2 26
+$EndMODULE idrophone_enc_layout
 $MODULE k4000001
 Po 0 0 0 15 515463D8 00000000 ~~
 Li k4000001
@@ -115904,6 +116409,163 @@ Ne 0 ""
 Po 0 -4
 $EndPAD
 $EndMODULE k4000001
+$MODULE micro_miniature_PB
+Po 0 0 0 15 530DDACF 00000000 ~~
+Li micro_miniature_PB
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7.5 1.524 1.524 0 0.3048 N V 21 N "micro_miniature_PB"
+T1 0 7.5 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+DC 0 0 1.75 0 0.2 21
+DS -3 -3 -3 3 0.2 21
+DS -3 3 3 3 0.2 21
+DS 3 3 3 -3 0.2 21
+DS 3 -3 -3 -3 0.2 21
+$PAD
+Sh "3" R 1.4 2.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.25 -4.55
+$EndPAD
+$PAD
+Sh "4" R 1.4 2.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.25 4.55
+$EndPAD
+$PAD
+Sh "1" R 1.4 2.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.25 -4.55
+$EndPAD
+$PAD
+Sh "2" R 1.4 2.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.25 4.55
+$EndPAD
+$EndMODULE micro_miniature_PB
+$MODULE micro_sd_pp_MOLEX-503398
+Po 0 0 0 15 530E0B99 00000000 ~~
+Li micro_sd_pp_MOLEX-503398
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -8.8 1.524 1.524 0 0.3048 N I 21 N "micro_sd_pp_MOLEX-503398"
+T1 0 9 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+DS 6.2 7.2 6.2 7.4 0.2 21
+DS 6.2 7.4 -6.4 7.4 0.2 21
+DS -6.4 7.4 -6.4 7.2 0.2 21
+DS -6.4 -3.2 -6.4 3.6 0.2 21
+DS 6.4 4.6 6.4 -3.2 0.2 21
+DS 5 -6.75 5.75 -6.75 0.2 21
+DS 1 -6.75 3.25 -6.75 0.2 21
+DS -5.75 -6.75 -1 -6.75 0.2 21
+$PAD
+Sh "1" R 0.7 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.38 6.015
+$EndPAD
+$PAD
+Sh "2" R 0.7 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.28 6.015
+$EndPAD
+$PAD
+Sh "3" R 0.7 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.18 6.015
+$EndPAD
+$PAD
+Sh "4" R 0.7 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.92 6.015
+$EndPAD
+$PAD
+Sh "5" R 0.7 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.02 6.015
+$EndPAD
+$PAD
+Sh "6" R 0.7 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.12 6.015
+$EndPAD
+$PAD
+Sh "7" R 0.7 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.22 6.015
+$EndPAD
+$PAD
+Sh "8" R 0.7 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.32 6.015
+$EndPAD
+$PAD
+Sh "" R 0.86 2.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.4 5.515
+$EndPAD
+$PAD
+Sh "" R 0.7 3.33 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.48 -5.25
+$EndPAD
+$PAD
+Sh "" R 0.7 3.33 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.48 -5.25
+$EndPAD
+$PAD
+Sh "" R 1.14 1.83 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.26 6
+$EndPAD
+$PAD
+Sh "9" R 1.05 0.78 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.095 -6.525
+$EndPAD
+$PAD
+Sh "6" R 0.9 0.93 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.17 -6.45
+$EndPAD
+$EndMODULE micro_sd_pp_MOLEX-503398
 $MODULE quarzo_smd_32MHz
 Po 0 0 0 15 50C1A822 00000000 ~~
 Li quarzo_smd_32MHz
@@ -116054,6 +116716,193 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE soic_eeprom
+$MODULE uMate-NLock_2
+Po 0 0 0 15 530E2DB8 00000000 ~~
+Li uMate-NLock_2
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.9 1.524 1.524 0 0.3048 N V 21 N "uMate-NLock_2"
+T1 0 6 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+DC 1.5 -4.32 1.5 -5.6 0.2 21
+DS -3.5 -1 -5 -1 0.2 21
+DS -5 -1 -5 1 0.2 21
+DS -5 1 -3.5 1 0.2 21
+DS 3.5 -1 5 -1 0.2 21
+DS 5 -1 5 1 0.2 21
+DS 5 1 3.5 1 0.2 21
+DS 2.8 -4.5 3.5 -4.5 0.2 21
+DS 3.5 -4.5 3.5 4.5 0.2 21
+DS 3.5 4.5 -3.5 4.5 0.2 21
+DS -3.5 4.5 -3.5 -4.5 0.2 21
+DS -3.5 -4.5 -2.8 -4.5 0.2 21
+$PAD
+Sh "" C 3 3 0 0 0
+Dr 3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 1.8 1.8 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.5 -4.32
+$EndPAD
+$PAD
+Sh "2" C 1.8 1.8 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.5 -4.32
+$EndPAD
+$EndMODULE uMate-NLock_2
+$MODULE uUSB-FCI_REC
+Po 0 0 0 15 530F0B82 00000000 ~~
+Li uUSB-FCI_REC
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6 1.524 1.524 0 0.3048 N V 21 N "uUSB-FCI_REC"
+T1 0 4 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+DS 3.75 1.5 3.75 -0.75 0.2 21
+DS -3.75 1.5 -3.75 -0.75 0.2 21
+DS 4 1.7 -4 1.7 0 26
+$PAD
+Sh "" O 1.3 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.725 0
+$EndPAD
+$PAD
+Sh "" O 1.3 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.725 0
+$EndPAD
+$PAD
+Sh "" R 1.825 0.95 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.9875 -1.575
+$EndPAD
+$PAD
+Sh "" R 1.825 0.95 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.9875 -1.575
+$EndPAD
+$PAD
+Sh "" R 1.3 0.65 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.725 -0.775
+$EndPAD
+$PAD
+Sh "" R 1.3 0.65 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.725 -0.775
+$EndPAD
+$PAD
+Sh "" O 0.7 1.2 0 0 0
+Dr 0.7 0 0 O 0.7 1.2
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.725 0
+$EndPAD
+$PAD
+Sh "" O 0.7 1.2 0 0 0
+Dr 0.7 0 0 O 0.7 1.2
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.725 0
+$EndPAD
+$PAD
+Sh "" R 2 1.46 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.9 -3.03
+$EndPAD
+$PAD
+Sh "" R 2 1.46 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.9 -3.03
+$EndPAD
+$PAD
+Sh "" O 0.65 1.05 0 0 0
+Dr 0.65 0 0 O 0.65 1.05
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.425 -3.03
+$EndPAD
+$PAD
+Sh "" O 0.65 1.05 0 0 0
+Dr 0.65 0 0 O 0.65 1.05
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.425 -3.03
+$EndPAD
+$PAD
+Sh "" R 1.425 2.5 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.9625 0.25
+$EndPAD
+$PAD
+Sh "" R 1.425 2.5 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.9625 0.25
+$EndPAD
+$PAD
+Sh "5" R 0.4 1.75 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.3 -2.825
+$EndPAD
+$PAD
+Sh "4" R 0.4 1.75 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 -2.825
+$EndPAD
+$PAD
+Sh "3" R 0.4 1.75 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -2.825
+$EndPAD
+$PAD
+Sh "2" R 0.4 1.75 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 -2.825
+$EndPAD
+$PAD
+Sh "1" R 0.4 1.75 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.3 -2.825
+$EndPAD
+$EndMODULE uUSB-FCI_REC
 $MODULE usb_micro_b
 Po 0 0 0 15 51C433FD 00000000 ~~
 Li usb_micro_b
