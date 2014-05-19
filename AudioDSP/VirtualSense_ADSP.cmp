@@ -1,45 +1,31 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 06 Mar 2014 06:42:18 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 16 May 2014 12:36:00 PM CEST
 
 BeginCmp
-TimeStamp = /52FCF8D6;
-Reference = BT1;
-ValeurCmp = 18650;
-IdModule  = bt_18650;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FCF8E7;
-Reference = BT2;
-ValeurCmp = 18650;
-IdModule  = bt_18650;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FD3AD8;
+TimeStamp = /530DD493/535E1D49;
 Reference = BTB1;
+ValeurCmp = BH411-1P;
+IdModule  = BH2460;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DD493/535E1D35;
+Reference = BTB2;
 ValeurCmp = 1V3;
 IdModule  = KEYSTONE-2988-BC-SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /530E003F;
-Reference = BTB1-2;
-ValeurCmp = BH411-1P;
-IdModule  = BH2466;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FCDAD2;
+TimeStamp = /536A4049;
 Reference = C1;
-ValeurCmp = 470n;
+ValeurCmp = 100n;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FCDACC;
+TimeStamp = /536CF5FF;
 Reference = C2;
-ValeurCmp = 470n;
-IdModule  = VS-DSP_SM0603;
+ValeurCmp = 10u;
+IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
@@ -71,16 +57,16 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /521DE35D;
+TimeStamp = /536BEDC2;
 Reference = C7;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FCE6EA;
+TimeStamp = /521CC8CD/5369F038;
 Reference = C8;
-ValeurCmp = NO;
+ValeurCmp = 100n;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
@@ -99,7 +85,7 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /521DCC9B;
+TimeStamp = /536BEE05;
 Reference = C11;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
@@ -113,9 +99,9 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FCE6E4;
+TimeStamp = /521CC8CD/5369F03E;
 Reference = C13;
-ValeurCmp = NO;
+ValeurCmp = 100n;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
@@ -141,16 +127,16 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FD04C8;
+TimeStamp = /536C887E;
 Reference = C17;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FBE084;
+TimeStamp = /536D3541;
 Reference = C18;
-ValeurCmp = 1u;
+ValeurCmp = 4u7;
 IdModule  = VS-DSP_SM0805;
 EndCmp
 
@@ -169,7 +155,7 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /521DCC95;
+TimeStamp = /536BEDEA;
 Reference = C21;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
@@ -183,7 +169,7 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /521DCB44;
+TimeStamp = /536BF7B2;
 Reference = C23;
 ValeurCmp = 4u7;
 IdModule  = VS-DSP_SM0805;
@@ -197,7 +183,7 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /530DD493/521E2E63;
+TimeStamp = /530DD493/536CF999;
 Reference = C25;
 ValeurCmp = 1u;
 IdModule  = VS-DSP_SM0805;
@@ -232,7 +218,7 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /530DD493/52FD29EB;
+TimeStamp = /530DD493/536D246D;
 Reference = C30;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
@@ -295,35 +281,35 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53188356;
+TimeStamp = /521CC8CD/536A0F40;
 Reference = C39;
-ValeurCmp = 10u;
-IdModule  = VS-DSP_SM0805;
+ValeurCmp = 100n;
+IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /521CC8CD/52FE69E7;
+TimeStamp = /521CC8CD/536D24DB;
 Reference = C40;
 ValeurCmp = 1u;
 IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /521CC8CD/52FE4EBE;
+TimeStamp = /521CC8CD/536D249C;
 Reference = C41;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /521CC8CD/52FE488D;
+TimeStamp = /521CC8CD/536D24BF;
 Reference = C42;
 ValeurCmp = 1u;
 IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /521CC8CD/52FE7513;
+TimeStamp = /521CC8CD/536D24F7;
 Reference = C43;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
@@ -358,50 +344,43 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5318D576;
+TimeStamp = /521CC8CD/536A0F3A;
 Reference = C48;
-ValeurCmp = 68n;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318D566;
-Reference = C49;
 ValeurCmp = 100n;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5318974F;
+TimeStamp = /521CC8CD/536D28B2;
+Reference = C49;
+ValeurCmp = 100u;
+IdModule  = EEEFT0J101AR;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CC8CD/536D28BF;
 Reference = C50;
-ValeurCmp = 4u7;
-IdModule  = VS-DSP_SM0805;
+ValeurCmp = 100u;
+IdModule  = EEEFT0J101AR;
 EndCmp
 
 BeginCmp
-TimeStamp = /5318EADC;
+TimeStamp = /521CC8CD/536D3865;
 Reference = C51;
-ValeurCmp = 10u;
-IdModule  = VS-DSP_SM0805;
+ValeurCmp = 22u;
+IdModule  = VS-DSP_SM1210;
 EndCmp
 
 BeginCmp
-TimeStamp = /521CC8CD/530B3F0C;
+TimeStamp = /521CC8CD/536D25A4;
 Reference = C52;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /521CC8CD/530B354F;
+TimeStamp = /521CC8CD/536D2513;
 Reference = C53;
-ValeurCmp = 10u;
-IdModule  = VS-DSP_SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /521CC8CD/530B3535;
-Reference = C54;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
 EndCmp
@@ -421,21 +400,14 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /521CC8CD/530B352F;
-Reference = C57;
-ValeurCmp = 100n;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /521CC8CD/530B837E;
+TimeStamp = /521CC8CD/536D2538;
 Reference = C58;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /521CC8CD/52FBE783;
+TimeStamp = /521CC8CD/536D2519;
 Reference = C59;
 ValeurCmp = 10u;
 IdModule  = VS-DSP_SM0805;
@@ -456,16 +428,72 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53187EE7;
+TimeStamp = /521CC8CD/536D5A65;
 Reference = C62;
+ValeurCmp = 2u2;
+IdModule  = VS-DSP_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CC8CD/536D5A6B;
+Reference = C63;
+ValeurCmp = 2u2;
+IdModule  = VS-DSP_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CC8CD/536D53DC;
+Reference = C64;
+ValeurCmp = 22u;
+IdModule  = VS-DSP_SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DD493/5368FB43;
+Reference = C65;
+ValeurCmp = 100n;
+IdModule  = VS-DSP_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DD493/536914F5;
+Reference = C66;
+ValeurCmp = 100n;
+IdModule  = VS-DSP_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DD493/53690F68;
+Reference = C67;
 ValeurCmp = 1u;
 IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /530DD493/521E26E0;
-Reference = D0;
+TimeStamp = /530DD493/53690DA6;
+Reference = C68;
+ValeurCmp = 1u;
+IdModule  = VS-DSP_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /536BF12B;
+Reference = C69;
 ValeurCmp = NO;
+IdModule  = EEEFT0J101AR;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CC8CD/536D387E;
+Reference = C70;
+ValeurCmp = 100n;
+IdModule  = VS-DSP_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DD493/536A2D0F;
+Reference = D0;
+ValeurCmp = LED;
 IdModule  = VS-DSP_SM0603_POL;
 EndCmp
 
@@ -473,28 +501,7 @@ BeginCmp
 TimeStamp = /530DD493/52DFFF2A;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = VS-DSP_SM0805_POL;
-EndCmp
-
-BeginCmp
-TimeStamp = /530DD493/52FE0D4E;
-Reference = D2;
-ValeurCmp = LED;
-IdModule  = VS-DSP_SM0805_POL;
-EndCmp
-
-BeginCmp
-TimeStamp = /530DD493/52FE0D76;
-Reference = D3;
-ValeurCmp = LED;
-IdModule  = VS-DSP_SM0805_POL;
-EndCmp
-
-BeginCmp
-TimeStamp = /530DD493/530C7DC0;
-Reference = D4;
-ValeurCmp = LED;
-IdModule  = VS-DSP_SM0805_POL;
+IdModule  = VS-DSP_SM0603_POL;
 EndCmp
 
 BeginCmp
@@ -505,58 +512,9 @@ IdModule  = SOD-80;
 EndCmp
 
 BeginCmp
-TimeStamp = /5318A097;
-Reference = D6;
-ValeurCmp = LED;
-IdModule  = VS-DSP_SM0805_POL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318B543;
-Reference = D7;
-ValeurCmp = LED;
-IdModule  = VS-DSP_SM0805_POL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318B56D;
-Reference = D8;
-ValeurCmp = LED;
-IdModule  = VS-DSP_SM0805_POL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318B573;
-Reference = D9;
-ValeurCmp = LED;
-IdModule  = VS-DSP_SM0805_POL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318B579;
-Reference = D10;
-ValeurCmp = LED;
-IdModule  = VS-DSP_SM0805_POL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318A4C5;
-Reference = D11;
-ValeurCmp = LED;
-IdModule  = VS-DSP_SM0805_POL;
-EndCmp
-
-BeginCmp
 TimeStamp = /52FE28F9;
 Reference = JP1;
 ValeurCmp = 3V3-USB;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /530DD493/52FE28D9;
-Reference = JP2;
-ValeurCmp = LED-DEBUG;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
@@ -585,39 +543,67 @@ BeginCmp
 TimeStamp = /530DD493/52FD2F8D;
 Reference = L4;
 ValeurCmp = BLM18AG601SN1D;
-IdModule  = VS-DSP_SM0805;
+IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /521CC8CD/52FE519E;
 Reference = L5;
 ValeurCmp = BLM18AG601SN1D;
-IdModule  = VS-DSP_SM0805;
+IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /521CC8CD/52FE5384;
 Reference = L6;
 ValeurCmp = BLM18AG601SN1D;
-IdModule  = VS-DSP_SM0805;
+IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /521CC8CD/52FE538A;
 Reference = L7;
 ValeurCmp = BLM18AG601SN1D;
-IdModule  = VS-DSP_SM0805;
+IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /521CC8CD/52FE751C;
 Reference = L8;
 ValeurCmp = BLM18AG601SN1D;
+IdModule  = VS-DSP_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CC8CD/5374C886;
+Reference = L9;
+ValeurCmp = BLM21BB221SN1D;
 IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52DFF619;
+TimeStamp = /521CC8CD/5374C95B;
+Reference = L10;
+ValeurCmp = BLM21BB221SN1D;
+IdModule  = VS-DSP_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CC8CD/5374C961;
+Reference = L11;
+ValeurCmp = BLM21BB221SN1D;
+IdModule  = VS-DSP_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CC8CD/5374C967;
+Reference = L12;
+ValeurCmp = BLM21BB221SN1D;
+IdModule  = VS-DSP_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /536BE07C;
 Reference = P1;
 ValeurCmp = 3V3;
 IdModule  = uMate-NLock_2;
@@ -634,28 +620,28 @@ BeginCmp
 TimeStamp = /52FCDA0C;
 Reference = P3;
 ValeurCmp = CH1;
-IdModule  = uMate-NLock_2;
+IdModule  = WaferAssy_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /52FCED5D;
 Reference = P4;
 ValeurCmp = CH2;
-IdModule  = uMate-NLock_2;
+IdModule  = WaferAssy_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /52FCEDB9;
 Reference = P5;
 ValeurCmp = CH3;
-IdModule  = uMate-NLock_2;
+IdModule  = WaferAssy_2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5318D0ED;
+TimeStamp = /52DFF619;
 Reference = P6;
-ValeurCmp = DC-IN;
-IdModule  = FC68145S;
+ValeurCmp = 3V3-REG;
+IdModule  = uMate-NLock_2;
 EndCmp
 
 BeginCmp
@@ -680,15 +666,8 @@ IdModule  = fiducial15;
 EndCmp
 
 BeginCmp
-TimeStamp = /530CC97B;
+TimeStamp = /530DD493/535E1D43;
 Reference = P10;
-ValeurCmp = DSP-SDA;
-IdModule  = VS_1PIN;
-EndCmp
-
-BeginCmp
-TimeStamp = /530CC6DB;
-Reference = P11;
 ValeurCmp = DSP-SDA;
 IdModule  = VS_1PIN;
 EndCmp
@@ -715,17 +694,17 @@ IdModule  = fix_hole_idrophone;
 EndCmp
 
 BeginCmp
-TimeStamp = /530DD493/530B2DB1;
+TimeStamp = /530DD493/53733593;
 Reference = P15;
-ValeurCmp = GPIOS;
-IdModule  = WaferAssy_5;
+ValeurCmp = CONN_6;
+IdModule  = WaferAssy_6;
 EndCmp
 
 BeginCmp
-TimeStamp = /530DD493/530B2CC5;
+TimeStamp = /530DD493/5369083B;
 Reference = P16;
 ValeurCmp = SPI;
-IdModule  = WaferAssy_9;
+IdModule  = WaferAssy_8;
 EndCmp
 
 BeginCmp
@@ -764,37 +743,37 @@ IdModule  = VS_1PIN;
 EndCmp
 
 BeginCmp
-TimeStamp = /53189763;
-Reference = P22;
-ValeurCmp = SYS-LOAD;
-IdModule  = VS_1PIN;
-EndCmp
-
-BeginCmp
-TimeStamp = /530DE0BA;
-Reference = PBT1;
-ValeurCmp = WAKEUP;
+TimeStamp = /530DD493/5370C7BE;
+Reference = PB1;
+ValeurCmp = PROG;
 IdModule  = micro_miniature_PB;
 EndCmp
 
 BeginCmp
 TimeStamp = /530DD493/530DEAEA;
-Reference = PBT2;
+Reference = PB2;
 ValeurCmp = STATUS;
 IdModule  = micro_miniature_PB;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FCDF5B;
+TimeStamp = /530DD493/536A34B4;
+Reference = PB3;
+ValeurCmp = WAKEUP;
+IdModule  = micro_miniature_PB;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DD493/536BB8F6;
 Reference = R1;
-ValeurCmp = 1K;
+ValeurCmp = 0;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FCDF6B;
+TimeStamp = /521CC8CD/536A0257;
 Reference = R2;
-ValeurCmp = 1K;
+ValeurCmp = 10K;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
@@ -862,13 +841,6 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /521DD815;
-Reference = R12;
-ValeurCmp = 0;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /521DFB4E;
 Reference = R13;
 ValeurCmp = 4K7;
@@ -883,16 +855,9 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FBD520;
+TimeStamp = /530DD493/536CCA01;
 Reference = R15;
-ValeurCmp = 2;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /530DD493/521E26ED;
-Reference = R16;
-ValeurCmp = NO;
+ValeurCmp = 0;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
@@ -974,13 +939,6 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /530DD493/52FE0D54;
-Reference = R28;
-ValeurCmp = 220;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /521CC8CD/521E44BA;
 Reference = R29;
 ValeurCmp = 0;
@@ -1002,13 +960,6 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /530DD493/52FE0D7C;
-Reference = R32;
-ValeurCmp = 220;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /530DD493/522054C7;
 Reference = R33;
 ValeurCmp = 10K;
@@ -1019,13 +970,6 @@ BeginCmp
 TimeStamp = /530DD493/522054CD;
 Reference = R34;
 ValeurCmp = 10K;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /522EF121;
-Reference = R35;
-ValeurCmp = 0;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
@@ -1121,9 +1065,9 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /530DD493/530C7DC6;
+TimeStamp = /530DD493/5368FB3D;
 Reference = R49;
-ValeurCmp = 220;
+ValeurCmp = NO;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
@@ -1131,28 +1075,14 @@ BeginCmp
 TimeStamp = /521CC8CD/530C9868;
 Reference = R50;
 ValeurCmp = 0;
-IdModule  = VS-DSP_SM0603;
+IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /521CC8CD/530C99DE;
 Reference = R51;
 ValeurCmp = 0;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /521CC8CD/530C9D87;
-Reference = R52;
-ValeurCmp = 0;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /521CC8CD/530CA323;
-Reference = R53;
-ValeurCmp = 0;
-IdModule  = VS-DSP_SM0603;
+IdModule  = VS-DSP_SM0805;
 EndCmp
 
 BeginCmp
@@ -1163,93 +1093,30 @@ IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5318A09D;
+TimeStamp = /530DD493/53690213;
 Reference = R55;
-ValeurCmp = 220;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318EFC3;
-Reference = R56;
 ValeurCmp = 10K;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5318E72E;
+TimeStamp = /530DD493/536A2D15;
+Reference = R56;
+ValeurCmp = 220;
+IdModule  = VS-DSP_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DD493/53690038;
 Reference = R57;
 ValeurCmp = 10K;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5318D560;
+TimeStamp = /530DD493/536B17A8;
 Reference = R58;
-ValeurCmp = 1K5;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318E264;
-Reference = R59;
-ValeurCmp = 3K;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318B318;
-Reference = R60;
-ValeurCmp = 10K;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318AAB4;
-Reference = R61;
-ValeurCmp = 100K;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318B549;
-Reference = R62;
-ValeurCmp = 220;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318B55B;
-Reference = R63;
-ValeurCmp = 220;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318B561;
-Reference = R64;
-ValeurCmp = 220;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318B567;
-Reference = R65;
-ValeurCmp = 220;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318A4CB;
-Reference = R66;
-ValeurCmp = 220;
-IdModule  = VS-DSP_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5318ED54;
-Reference = R67;
-ValeurCmp = 10K;
+ValeurCmp = 0;
 IdModule  = VS-DSP_SM0603;
 EndCmp
 
@@ -1268,17 +1135,17 @@ IdModule  = MCH_FCI-10067847-001;
 EndCmp
 
 BeginCmp
-TimeStamp = /53186FEA;
+TimeStamp = /536BDD65;
 Reference = SW1;
-ValeurCmp = SSSS224001;
-IdModule  = SSSS224001;
+ValeurCmp = JS202011SCQN;
+IdModule  = JS202011SCQN;
 EndCmp
 
 BeginCmp
-TimeStamp = /5318A807;
-Reference = TH1;
-ValeurCmp = NTHS0603N01N1003JE;
-IdModule  = VS-DSP_SM0603;
+TimeStamp = /530DD493/536B1DD0;
+Reference = SW2;
+ValeurCmp = JS202011SCQN;
+IdModule  = JS202011SCQN;
 EndCmp
 
 BeginCmp
@@ -1305,8 +1172,8 @@ EndCmp
 BeginCmp
 TimeStamp = /521CC8C2;
 Reference = U4;
-ValeurCmp = DSX321G_12MHZ;
-IdModule  = QRZ_DSX321G_12MHZ;
+ValeurCmp = ASDM1-12.000MHZ;
+IdModule  = ASDM1_12MHZ;
 EndCmp
 
 BeginCmp
@@ -1317,10 +1184,38 @@ IdModule  = S-PBGA-N144;
 EndCmp
 
 BeginCmp
-TimeStamp = /531863C0;
-Reference = U6;
-ValeurCmp = MAX8934;
-IdModule  = MAX8934;
+TimeStamp = /536A38BB;
+Reference = U7;
+ValeurCmp = TPS77533;
+IdModule  = TPS77533D;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CC8CD/5369EEAB;
+Reference = U8;
+ValeurCmp = TPS2080D;
+IdModule  = TPS2080D;
+EndCmp
+
+BeginCmp
+TimeStamp = /521CC8CD/536A942A;
+Reference = U9;
+ValeurCmp = TPS60125;
+IdModule  = TPS60125PWP;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DD493/536CB416;
+Reference = U10;
+ValeurCmp = SST25PF080B;
+IdModule  = SST25PF080B;
+EndCmp
+
+BeginCmp
+TimeStamp = /530DD493/53690D99;
+Reference = U13;
+ValeurCmp = MCCOG21605B6W;
+IdModule  = MCCOG21605B6W;
 EndCmp
 
 BeginCmp
@@ -1328,27 +1223,6 @@ TimeStamp = /52FD0994;
 Reference = USB1;
 ValeurCmp = MICRO-USB;
 IdModule  = uUSB-FCI_REC;
-EndCmp
-
-BeginCmp
-TimeStamp = /521CC8CD/530B96BC;
-Reference = uSD1;
-ValeurCmp = uSD;
-IdModule  = micro_sd_pp_MOLEX-503398;
-EndCmp
-
-BeginCmp
-TimeStamp = /521CC8CD/53185F96;
-Reference = uSD1-1;
-ValeurCmp = uSD1-1;
-IdModule  = micro_sd_pp_MOLEX-503398;
-EndCmp
-
-BeginCmp
-TimeStamp = /521CC8CD/530BA19D;
-Reference = uSD2;
-ValeurCmp = uSD;
-IdModule  = micro_sd_pp_MOLEX-503398;
 EndCmp
 
 BeginCmp
