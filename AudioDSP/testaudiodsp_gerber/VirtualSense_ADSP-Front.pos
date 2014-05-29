@@ -1,0 +1,50 @@
+### Module positions - created on Wed 28 May 2014 11:57:25 AM CEST ###
+### Printed by Pcbnew version pcbnew (2013-mar-13)-testing
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       100n             VS-DSP_SM0603       3.2717    -3.4685      90.0    Front
+C2       10u              VS-DSP_SM0805       3.6811    -3.5079      90.0    Front
+C10      NO               VS-DSP_SM0603       8.5236    -3.6929       0.0    Front
+C11      10u              VS-DSP_SM0805       8.0197    -3.4685      90.0    Front
+C12      NO               VS-DSP_SM0603       8.5236    -3.4173       0.0    Front
+C14      NO               VS-DSP_SM0603       8.5236    -3.7559       0.0    Front
+C15      100n             VS-DSP_SM0603       7.9488    -3.4764      90.0    Front
+C16      NO               VS-DSP_SM0603       8.5236    -3.4803       0.0    Front
+C17      10u              VS-DSP_SM0805       3.2874    -4.4567     270.0    Front
+C18      4u7              VS-DSP_SM0805       3.5512    -4.4567     270.0    Front
+C20      100n             VS-DSP_SM0603       3.4252    -4.3346       0.0    Front
+C24      100n             VS-DSP_SM0603       6.7598    -4.2677     180.0    Front
+C25      1u               VS-DSP_SM0805       6.9291    -4.5197     270.0    Front
+C26      100n             VS-DSP_SM0603       6.8583    -4.5118     270.0    Front
+C29      100n             VS-DSP_SM0603       7.9803    -3.9449     270.0    Front
+C30      10u              VS-DSP_SM0805       6.7598    -4.0433     180.0    Front
+C32      1u               VS-DSP_SM0805       7.0866    -4.5197     270.0    Front
+C34      100n             VS-DSP_SM0603       7.0157    -4.5118     270.0    Front
+C35      100n             VS-DSP_SM0603       7.3031    -4.5118     270.0    Front
+C36      100n             VS-DSP_SM0603       7.2323    -4.5118     270.0    Front
+C37      10n              VS-DSP_SM0603       7.1654    -4.5118     270.0    Front
+C41      10u              VS-DSP_SM0805       6.7598    -3.7835     180.0    Front
+C43      10u              VS-DSP_SM0805       6.7598    -3.9134     180.0    Front
+C67      1u               VS-DSP_SM0805       7.0748    -4.9449       0.0    Front
+D0       LED              VS-DSP_SM0603_PO    8.4055    -4.2717       0.0    Front
+D1       LED              VS-DSP_SM0603_PO    8.6024    -4.2717       0.0    Front
+L3       BLM18AG601SN1D   VS-DSP_SM0805       7.1299    -4.7126      90.0    Front
+L6       BLM18AG601SN1D   VS-DSP_SM0603       7.5866    -4.1378     180.0    Front
+L7       BLM18AG601SN1D   VS-DSP_SM0603       7.5866    -4.0236     180.0    Front
+L10      BLM21BB221SN1D   VS-DSP_SM0805       5.1339    -3.3543     180.0    Front
+L12      BLM21BB221SN1D   VS-DSP_SM0805       3.7756    -3.3543     180.0    Front
+R18      100K             VS-DSP_SM0603       6.7598    -4.3307       0.0    Front
+R23      100K             VS-DSP_SM0603       3.3228    -4.2126      90.0    Front
+R25      0                VS-DSP_SM0603       6.7598    -4.1417     180.0    Front
+R26      0                VS-DSP_SM0603       7.5866    -4.2362     180.0    Front
+R30      0                VS-DSP_SM0603       7.3661    -4.5118      90.0    Front
+R31      10K              VS-DSP_SM0603       7.4291    -4.5118      90.0    Front
+R33      10K              VS-DSP_SM0603       7.8504    -4.3386      90.0    Front
+R34      10K              VS-DSP_SM0603       7.7717    -4.3386      90.0    Front
+R48      0                VS-DSP_SM0603       6.7598    -4.2047       0.0    Front
+R50      0                VS-DSP_SM0805       7.5945    -4.3071     180.0    Front
+R51      0                VS-DSP_SM0805       7.2047    -3.6969      90.0    Front
+R54      0                VS-DSP_SM0603       7.8465    -3.8110       0.0    Front
+U1       TPS76933         VSCN-SOT23-5        3.4213    -4.4488     270.0    Front
+## End
