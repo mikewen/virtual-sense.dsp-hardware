@@ -1248,8 +1248,6 @@ Wire Wire Line
 Wire Wire Line
 	850  6200 1900 6200
 Wire Wire Line
-	5150 4550 5200 4550
-Wire Wire Line
 	5150 4650 5200 4650
 Wire Wire Line
 	5150 5300 5200 5300
@@ -1357,7 +1355,7 @@ Connection ~ 7300 2350
 Wire Wire Line
 	1700 6500 1800 6500
 Wire Wire Line
-	1800 6500 1800 6400
+	1800 6400 1800 6650
 Wire Wire Line
 	1800 6400 1900 6400
 Wire Wire Line
@@ -1442,7 +1440,7 @@ Wire Wire Line
 	1700 2300 1700 2250
 Wire Wire Line
 	1700 2250 1900 2250
-Text GLabel 5200 4550 2    60   Input ~ 0
+Text GLabel 1700 6650 0    60   Input ~ 0
 STEPUP_EN
 Text GLabel 10350 3650 0    60   Input ~ 0
 GPIO3
@@ -1592,4 +1590,8 @@ F 3 "" H 2450 7150 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 7200 2450 7150
+Wire Wire Line
+	1800 6650 1700 6650
+Connection ~ 1800 6500
+NoConn ~ 5150 4550
 $EndSCHEMATC
